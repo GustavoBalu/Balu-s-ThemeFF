@@ -5,4 +5,4 @@ Alterações realizadas:
 
 Para instalar, basta jogar o arquivo userChrome.css na pasta chrome(talves precise criar esta pasta) dentro o diretorio do perfil do Firefox e reiniciar o browser.
 
-Extensão de thema usada: https://addons.mozilla.org/pt-BR/firefox/addon/glass-color/ 
+Extensão de tema usada: https://addons.mozilla.org/pt-BR/firefox/addon/glass-color/ 
