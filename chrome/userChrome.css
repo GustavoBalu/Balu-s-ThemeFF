@@ -1,57 +1,6 @@
-/* Custom min-max-close Buttons */
-.titlebar-button {
-	transition: all 0.3s ease !important;
-	padding: 8px 10px !important;
-    
-}
-.titlebar-button > .toolbarbutton-icon {
-	transition: all 0.3s ease !important;
-	list-style-image: none;
-  border: 1px solid;
-	border-radius: 10px;
-}
-.titlebar-button.titlebar-min > .toolbarbutton-icon {
-	background: #27c840 !important;
-  border-color: #27c83f7a !important;
-}
+/* FORKED FROM https://github.com/Neikon/AutoColor-Minimal-Proton */
 
-.titlebar-button.titlebar-max > .toolbarbutton-icon,
-.titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	background: #febb2e !important;
-  border-color: #febc2e7c !important;
-}
 
-.titlebar-button.titlebar-close > .toolbarbutton-icon {
-	background: #ff5f57 !important;
-	stroke: #ff5f57 !important;
-  border-color: #ff5f5777 !important;
-  
-}
-.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
-	background: #ff5f5742 !important;
-  border: 1px solid;
-  border-color: #ff5f57 !important;
-}
-.titlebar-button.titlebar-close:hover {
-	background: #fdfdfd00 !important;
-}
-.titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
-.titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
-	background: #febc2e44 !important;
-  border: 1px solid;
-  border-color: #febb2e !important;
-}
-.titlebar-button.titlebar-max:hover, .titlebar-button.titlebar-restore:hover {
-	background: #fdfdfd00 !important;
-}
-.titlebar-button.titlebar-min:hover > .toolbarbutton-icon {
-	background: #27c83f38 !important;
-  border: 1px solid;
-  border-color: #27c840 !important;
-}
-.titlebar-button.titlebar-min:hover {
-	background: #fdfdfd00 !important;
-}
 
 /* Custom tab active color */
 .tab-background[selected="true"] {
@@ -85,7 +34,20 @@
 }
 #urlbar[open] > #urlbar-background{
   border: none !important;
+  background: #b3b3b3 !important;
   box-shadow: 0px 0px 4px 0px rgb(12, 12, 13) !important;
+}
+
+.urlbarView-row-inner{ 
+  cursor: pointer;
+  display: block; flex-direction: column !important; 
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 5px;
+  background: rgba(65, 63, 63, 0.342); 
+} 
+.urlbarView-title-separator{ 
+  display: none; 
 }
 
 #urlbar {
@@ -216,4 +178,3 @@ See the above repository for updates as well as full license text. */
   margin-bottom: 0px !important;
 }
 */
-
